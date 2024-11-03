@@ -235,6 +235,7 @@ public class Agenda {
                 break;
             default:
                 imprimir("Opción Incorrecta.");
+                imprimir("Intentelo de nuevo");
                 operacionGrupo();
                 break;
         }

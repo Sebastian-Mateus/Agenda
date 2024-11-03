@@ -49,7 +49,7 @@ public class Grupo {
      */
     @Override
     public String toString() {
-        String mensaje = "-Grupo-\nNombre: " + nombre + "\nCategoría: " + categoria + "\nLista de Contactos:\n";
+        String mensaje = "-Grupo-\nNombre del Grupo: " + nombre + "\nCategoría: " + categoria + "\nLista de Contactos:\n";
         int i = 1;
         for (Contacto contacto : contactosg) {
             mensaje += "- Contacto #" + i + ":\n" + contacto.toString() + "\n";
